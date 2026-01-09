@@ -209,3 +209,4 @@ export function getWardByLocation(lat: number, lng: number): TokyoWard | undefin
   return TOKYO_23_WARDS.find(ward => isPointInWard(lat, lng, ward));
 }
 
+
